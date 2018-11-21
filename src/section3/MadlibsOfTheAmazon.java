@@ -20,10 +20,11 @@ public class MadlibsOfTheAmazon {
 		Place = JOptionPane.showInputDialog("Give me a place");
 
 		JOptionPane.showMessageDialog(null,
-				"Piranhas ar more " + adjective + " during the day,"
-						+ "so cross the river at night. Piranhas are attracted to fresh " + Liquid + " and "
-						+ " will most" + " likely take a bite out of your " + Body);
-
+				"Piranhas are more " + adjective + " during the day,"
+						+ " so cross the river at night. Piranhas are attracted to fresh " + Liquid + " and "
+						+ " will most" + " likely take a bite out of your " + Body + "If you" + verb
+						+ " . Whatever you do, if you have an open wound, try to find another way to get back to"
+						+ " the " + Place + " . Good luck!");
 		// Fit the user's words into this sentence, and save it in a String:
 		// Piranhas are more [adjective] during the day, so cross the river at
 		// night. Piranhas are attracted to fresh [type of liquid] and will most
